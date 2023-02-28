@@ -1,5 +1,5 @@
 {
-  "name": "confusion",
+  "name": "brs",
   "version": "1.0.0",
   "description": "This is a website for Books",
   "main": "index.html",
@@ -8,9 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/WardaFarhan/Node-js-Mongo-db-project.git)"
+  },
+  "author": "Warda Farhan",
   "license": "ISC",
-    "devDependencies": {
+  "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
